@@ -1,10 +1,9 @@
 {
   "name": "https-server",
   "version": "1.0.0",
-  "description": "Simple HTTPS server using Node.js",
+  "description": "Simple HTTPS  server using Node.js",
   "main": "index.js",
   "dependencies": {
-    "tls": "^0.1.0",
     "net": "^1.0.0"
   },
   "scripts": {
@@ -13,3 +12,4 @@
   "author": "minwu9422",
   "license": "MIT"
 }
+
