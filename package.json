@@ -1,14 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Simple  server ",
+  "description": "server",
   "main": "index.js",
-  "dependencies": {
-    "ws": "^8.4.0", // 
-    "net": "^1.0.0"
-  },
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "dependency-name": "^1.0.0"
+  },
+  "devDependencies": {
+    "dev-dependency-name": "^1.0.0"
   },
   "author": "minwu",
   "license": "MIT"
