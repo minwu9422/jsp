@@ -1,15 +1,15 @@
 {
-  "name": "https-server",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Simple HTTPS  server using Node.js",
+  "description": "Simple  server ",
   "main": "index.js",
   "dependencies": {
+    "ws": "^8.4.0", // 
     "net": "^1.0.0"
   },
   "scripts": {
     "start": "node index.js"
   },
-  "author": "minwu9422",
+  "author": "minwu",
   "license": "MIT"
 }
-
