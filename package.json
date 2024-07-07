@@ -1,11 +1,15 @@
 {
-  "name": "test",
+  "name": "https-server",
   "version": "1.0.0",
-  "description": "A simple.",
+  "description": "Simple HTTPS server using Node.js",
   "main": "index.js",
+  "dependencies": {
+    "tls": "^0.1.0",
+    "net": "^1.0.0"
+  },
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "minwu9422",
+  "license": "MIT"
 }
